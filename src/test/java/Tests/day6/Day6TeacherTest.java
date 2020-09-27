@@ -1,6 +1,8 @@
 //package Tests.day6;
 //
 //import Tests.AbstractTest;
+//import day6.Student;
+//import day6.Teacher;
 //import org.junit.jupiter.api.Test;
 //
 //import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -14,28 +16,28 @@
 //    public void evaluate5() {
 //        teacher.evaluate(student, 5);
 //        assertEquals("Преподаватель Oleg оценил студента с именем Petr по предмету History на оценку отлично."
-//                + System.lineSeparator(), getOutput(), "Оценка 5");
+//                + System.lineSeparator(), getOutput(), "Оценка 5. Студент Олег, преподаватель Петр, предмет История.");
 //    }
 //
 //    @Test
 //    public void evaluate4() {
 //        teacher.evaluate(student, 4);
 //        assertEquals("Преподаватель Oleg оценил студента с именем Petr по предмету History на оценку хорошо."
-//                + System.lineSeparator(), getOutput(), "Оценка 4");
+//                + System.lineSeparator(), getOutput(), "Оценка 4. Студент Олег, преподаватель Петр, предмет История.\"");
 //    }
 //
 //    @Test
 //    public void evaluate3() {
 //        teacher.evaluate(student, 3);
 //        assertEquals("Преподаватель Oleg оценил студента с именем Petr по предмету History на оценку удовлетворительно."
-//                + System.lineSeparator(), getOutput(), "Оценка 3");
+//                + System.lineSeparator(), getOutput(), "Оценка 3. Студент Олег, преподаватель Петр, предмет История.\"");
 //    }
 //
 //    @Test
 //    public void evaluate2() {
 //        teacher.evaluate(student, 2);
 //        assertEquals("Преподаватель Oleg оценил студента с именем Petr по предмету History на оценку неудовлетворительно."
-//                + System.lineSeparator(), getOutput(), "Оценка 2");
+//                + System.lineSeparator(), getOutput(), "Оценка 2. Студент Олег, преподаватель Петр, предмет История.\"");
 //    }
 //
 //    @Test

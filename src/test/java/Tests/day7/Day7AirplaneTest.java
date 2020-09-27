@@ -1,6 +1,7 @@
 //package Tests.day7;
 //
 //import Tests.AbstractTest;
+//import day7.Airplane;
 //import org.junit.jupiter.api.Test;
 //
 //import static org.junit.jupiter.api.Assertions.assertEquals;
